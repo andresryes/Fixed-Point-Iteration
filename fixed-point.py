@@ -29,11 +29,9 @@ def fixed_point(f, g, x, t):
 
 def g(x):
     return 5/(math.pow(math.e,0.5*x)+1.2)
-    #return 1+2/x
 
 def f(x):
     return x*math.pow(math.e, x*0.5)+1.2*x-5
-    #return x**2-x-2
 
 def f1(x):
     return x
